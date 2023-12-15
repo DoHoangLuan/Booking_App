@@ -1,0 +1,10 @@
+.Card:hover {
+    background-color: white;
+}
+
+.Card:hover h1 {
+    color: #3ac5c9
+}
+.Card:hover p {
+    color:black
+}

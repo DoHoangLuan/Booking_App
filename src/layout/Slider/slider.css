@@ -1,0 +1,9 @@
+
+.swiper-pagination-bullet-active {
+    width: 20px !important;
+    height: 8px !important;
+    background-color: azure;
+    border: 1px solid white;
+    border-radius: 32%;
+    transition: 0.5s ease-in-out;
+}
