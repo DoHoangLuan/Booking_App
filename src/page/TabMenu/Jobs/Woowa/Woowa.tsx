@@ -1,7 +1,7 @@
 import "./woowa.css";
 const Woowa = () => {
   return (
-    <div>
+    <div className="pb-32">
       <div className="flex flex-col justify-center items-center px-80  ">
         <div className="flex flex-col justify-center items-center">
           <h1 className="font-bold font-mono text-[36px] pt-[80px]">
@@ -116,7 +116,7 @@ const Woowa = () => {
         <div className="py-[80px] font-bold font-mono text-[32px]">
           <p>Hình mẫu nhân tài của Woowa</p>
         </div>
-        <div className="grid grid-rows-4 gap-5 ">
+        <div className="grid grid-rows-4 gap-5   ">
           <div className="flex flex-row gap-5 py-10 px-10 h-[304px] duration-300 hover:bg-slate-200 ">
             <div className="h-[200px] w-[180px] translate-y-[10%] ">
               <img
@@ -228,11 +228,11 @@ const Woowa = () => {
           </div>
         </div>
         <div className="py-6">
-          <div className="grid grid-cols-4 gap-5">
+          <div className="grid grid-cols-4 gap-5 ">
             <div>
               <div className="bg-[#3ac5c9] ">
                 <div className="px-[48px] py-[48px] ">
-                  <div className="w-[191px] flex flex-col gap-10 text-white">
+                  <div className="w-[191px] flex flex-col gap-10 text-white transition duration-500 hover:scale-110">
                     <h2 className="text-5xl">01</h2>
                     <b>9h01, không phải 9h.</b>
                     <p>
@@ -242,15 +242,179 @@ const Woowa = () => {
                   </div>
                 </div>
               </div>
-              <div className=" transition duration-200 group-hover:scale-110">
-                <div className="px-[48px] py-[48px] transition duration-200 group-hover:scale-110 ">
-                  <div className="w-[191px] flex flex-col gap-10 text-black  transition duration-200 group-hover:scale-110">
+              <div>
+                <div className="px-[48px] py-[48px] ">
+                  <div className="w-[191px] flex flex-col gap-10 text-black  transition duration-500 hover:scale-110">
                     <h2 className="text-5xl text-[#3ac5c9]">05</h2>
                     <b>Không nói đùa gây khó chịu khi đồng nghiệp nghỉ phép.</b>
                     <p>
                       Một câu nói đùa không suy nghĩ cũng làm ảnh hưởng lớn đến
                       tinh thần làm việc của đồng nghiệp xung quanh.
                     </p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div className="bg-[#3ac5c9] ">
+                  <div className="px-[48px] py-[48px] ">
+                    <div className="w-[191px] flex flex-col gap-10 text-white transition duration-500 hover:scale-110">
+                      <h2 className="text-5xl">O9</h2>
+                      <b>Không làm những việc khiến người thân phải xấu hổ.</b>
+                      <p>
+                        Mỗi nhân viên - trước khi trở thành thành viên của công
+                        ty - là những công dân trưởng thành tuân thủ pháp luật
+                        và xem trọng những giá trị đạo đức.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div className="px-[48px] py-[48px] ">
+                <div className="w-[191px] flex flex-col gap-10 text-black  transition duration-500 hover:scale-110">
+                  <h2 className="text-5xl text-[#3ac5c9]">02</h2>
+                  <b>Cấp bậc trong công việc! Bình đẳng trong văn hoá!.</b>
+                  <p>
+                    Giữa Cấp bậc và Bình đẳng - nếu chỉ nghiêng hẳn về một bên,
+                    dù là bên nào cũng đều là điều không tốt. Khi làm việc, để
+                    đạt được mục tiêu chung thì tất cả nhân viên phải cùng nhau
+                    làm việc một cách có trật tự và theo nguyên tắc của tổ chức.
+                  </p>
+                </div>
+              </div>
+              <div>
+                <div className="bg-[#3ac5c9] ">
+                  <div className="px-[48px] py-[48px] ">
+                    <div className="w-[191px] flex flex-col gap-10 text-white transition duration-500 hover:scale-110">
+                      <h2 className="text-5xl">06</h2>
+                      <b>Báo cáo phải dựa trên sự thật.</b>
+                      <p>
+                        Chỉ những thông tin dựa trên sự thật mới là nền tảng của
+                        quyết định đúng đắn. Để không gây định kiến cho người
+                        nhận báo cáo, trước tiên phải báo cáo dựa trên sự thật,
+                        sau đó mới phân rõ và thêm vào ý kiến, quan điểm của cá
+                        nhân.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div className="px-[48px] py-[48px] ">
+                  <div className="w-[191px] flex flex-col gap-10 text-black  transition duration-500 hover:scale-110">
+                    <h2 className="text-5xl text-[#3ac5c9]">10</h2>
+                    <b>
+                      Đích cuối cùng của tất cả mọi công việc là “Tạo ra khách
+                      hàng" và “Sự hài lòng của khách hàng"
+                    </b>
+                    <p>
+                      Công ty không thể tồn tại mà không có khách hàng. Điểm
+                      khác nhau lớn nhất để phân biệt giữa một công ty và một
+                      trường học, một bệnh viện, một tổ chức tôn giáo hay quân
+                      đội…đó chính là “khách hàng". Tất cả mọi quyết định được
+                      đưa ra ở công ty đều phải lấy việc tiếp cận khách hàng làm
+                      trọng tâm. Quyết định một công việc nhưng lại loại bỏ
+                      khách hàng, chỉ nghĩ đến sự thỏa hiệp về quyền lực hay
+                      quyền lợi giữa các bộ phận trong công ty là một hành vi
+                      ngu ngốc.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div>
+                <div className="bg-[#3ac5c9] ">
+                  <div className="px-[48px] py-[48px] ">
+                    <div className="w-[191px] flex flex-col gap-10 text-white transition duration-500 hover:scale-110">
+                      <h2 className="text-5xl">03</h2>
+                      <b>
+                        Tán gẫu trong công ty cũng là một năng lực cạnh tranh.
+                      </b>
+                      <p>
+                        Tán gẫu là một trong những chất liệu để tạo nên sự tin
+                        tưởng. Những câu chuyện phiếm làm cho người tham gia cảm
+                        thấy thoải mái và nâng cao sự gắn kết cộng đồng giữa họ.
+                        Sau khi câu chuyện kết thúc, có thể sẽ không ai nhớ về
+                        nội dung của nó nhưng thời gian họ đã chia sẻ cùng nhau
+                        vẫn được lưu lại. Thông qua đó, sự gắn kết được hình
+                        thành và tăng lên, rồi phát triển thành sự tin tưởng.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div className="px-[48px] py-[48px] ">
+                  <div className="w-[191px] flex flex-col gap-10 text-black  transition duration-500 hover:scale-110">
+                    <h2 className="text-5xl text-[#3ac5c9]">07</h2>
+                    <b>
+                      Suy xét đến mục đích, kết quả, thời gian và những người có
+                      liên quan đến công việc mình đang làm.
+                    </b>
+                    <p>
+                      Khi làm việc, nhất định phải suy nghĩ đến mục đích của
+                      công việc đó. Đặc biệt, luôn gợi lại những mục đích đó
+                      trong quá trình thực hiện cũng là một điều rất quan trọng.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div className="bg-[#3ac5c9] ">
+                  <div className="px-[48px] py-[48px] ">
+                    <div className="w-[191px] flex flex-col gap-10 text-white transition duration-500 hover:scale-110">
+                      <h2 className="text-5xl">11</h2>
+                      <b>
+                        Hoặc là dẫn dắt, hoặc là tuân theo, hoặc là rời khỏi
+                        công ty!
+                      </b>
+                      <p>
+                        Trong sự thành công của công việc, Leadership cũng quan
+                        trọng nhưng Followership cũng quan trọng không kém.
+                        Không có quyết định nào là hoàn hảo. Tuy nhiên so với
+                        việc hoàn toàn không thực hiện theo bất cứ quyết định
+                        nào, việc thực hiện theo quyết định của tổ chức - dù có
+                        thể đó là một quyết định sai - vẫn còn tốt hơn.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div>
+                <div className="px-[48px] py-[48px] ">
+                  <div className="w-[191px] flex flex-col gap-10 text-black  transition duration-500 hover:scale-110">
+                    <h2 className="text-5xl text-[#3ac5c9]">04</h2>
+                    <b>Rác được dọn bởi người đầu tiên nhìn thấy nó.</b>
+                    <p>
+                      Công ty là một xã hội thu nhỏ. Phải biết cống hiến và đóng
+                      góp vượt ngoài nhiệm vụ của bản thân, phải nỗ lực vì một
+                      cộng đồng phát triển và tốt đẹp (vì nếu đơn thuần chỉ là
+                      cố gắng vì thành quả của một dự án thì cũng không khác gì
+                      nhân viên của một công ty outsource nào đó mà thôi).
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div className="bg-[#3ac5c9] ">
+                  <div className="px-[48px] py-[48px] ">
+                    <div className="w-[191px] flex flex-col gap-10 text-white transition duration-500 hover:scale-110">
+                      <h2 className="text-5xl">08</h2>
+                      <b>
+                        Trách nhiệm thuộc về người quyết định, không phải người
+                        thi hành.
+                      </b>
+                      <p>
+                        Nhiều trường hợp, công việc chúng tôi tiến hành có thể
+                        xác suất thất bại lớn. Và điều quan trọng là thông qua
+                        thất bại, chúng tôi phải biết liên tục học hỏi, củng cố
+                        tổ chức và quy trình làm việc 
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>

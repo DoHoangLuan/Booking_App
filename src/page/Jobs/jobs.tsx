@@ -1,8 +1,7 @@
 import BasicTabs from "../../Components/Tabs/Tabs";
 import Slider from "../../layout/Slider/Slider";
-import Woowa from "../TabMenu/Jobs/Woowa";
+import Woowa from "../TabMenu/Jobs/Woowa/Woowa";
 import Commit from "../TabMenu/Us/Commit/Commit";
-import MyStoryLabelStepper from "../TabMenu/Us/MyStory/MyStory";
 import OurPartner from "../TabMenu/Us/Partner/OurPartner";
 const imgCareers = [
   "/public/img/BaeminCareers/baemincareers1.jpg",
