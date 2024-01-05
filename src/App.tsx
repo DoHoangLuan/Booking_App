@@ -11,16 +11,18 @@ import Footer from "./layout/Footer/Footer";
 import { useState } from "react";
 import ShoppingSlide from "./layout/Shopping/Shopping";
 import ProfileUser from "./page/Profile/Profile";
+import Booking from "./page/Booking/Booking";
 const App = () => {
-  const [open, useOpen] = useState<boolean>(false);
+  const [open, setOpen] = useState<boolean>(false);
+
   const handOpen = () => {
-    useOpen(!open);
+    setOpen(!open);
   };
   return (
     <BrowserRouter>
-      <div >
+      <div>
         {open ? (
-          ShoppingSlide
+          <ShoppingSlide />
         ) : (
           <div>
             <Header handleClick={handOpen} />
@@ -34,12 +36,12 @@ const App = () => {
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/service" element={<Service />} />
                 <Route path="/profile" element={<ProfileUser />} />
-                
+                <Route path="/booking" element={<Booking />} />
               </Routes>
             </div>
             <Footer />
           </div>
-        )}  
+        )}
       </div>
     </BrowserRouter>
   );
