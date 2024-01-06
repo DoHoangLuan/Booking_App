@@ -60,7 +60,7 @@ const ResponsiveTimePickers: React.FC<ResponsiveTimePickersProps> = ({
         <DemoContainer components={["DatePicker"]}>
           <DemoItem label="Chọn ngày">
             <DatePicker
-              defaultValue={dayjs("2024-01-17")}
+              defaultValue={dayjs("2024-01-01")}
               onChange={(date) => onDateChange(date?.toDate() || null)}
             />
           </DemoItem>

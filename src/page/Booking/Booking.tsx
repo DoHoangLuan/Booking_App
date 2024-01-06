@@ -4,6 +4,7 @@ import TimePicker from "../../Components/TimePicker/TimePicker";
 import SendIcon from "@mui/icons-material/Send";
 import "./style.css";
 import { ChangeEvent, useState } from "react";
+import { createBooking } from "../../apis/axiosIntance.js";
 
 interface Restaurant {
   label: string;
@@ -39,12 +40,22 @@ const Booking = () => {
     setSliderValue(value);
   };
 
-  const handleSubmit = () => {
-    console.log("Name Booking:", nameBooking);
-    console.log("Selected Location:", selectedLocation);
-    console.log("Slider Value:", sliderValue);
-    console.log("Selected Date:", selectedDate);
-    console.log("Selected Time:", selectedTime);
+  const handleSubmit = async () => {
+    try {
+      const bookingData = {
+        nameBooking,
+        location: selectedLocation?.label,
+        sliderValue,
+        selectedDate,
+        selectedTime,
+      };
+      const response = await createBooking(bookingData);
+      if (response) {
+        console.log("Booking created successfully!");
+      }
+    } catch (error) {
+      console.error("Error creating booking:", error);
+    }
   };
 
   return (

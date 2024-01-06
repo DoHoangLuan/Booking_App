@@ -16,4 +16,16 @@ axiosInstance.interceptors.request.use((config) => {
     return config
 })
 
+
+export const createBooking = async (data) => {
+    try {
+        const response = await axiosInstance.post('/booking', { data });
+        console.log(response);
+    } catch (error) {
+        console.error('Error creating booking:', error);
+    }
+};
+
+
+
 export default axiosInstance
