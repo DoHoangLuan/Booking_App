@@ -1,11 +1,10 @@
-import { NavLink } from "react-router-dom";
-import BasicMenu from "../../Components/Profiles/Profile";
-import { IoSettingsOutline, IoHelpCircleOutline } from "react-icons/io5";
+import { CiShoppingCart, CiUser } from "react-icons/ci";
+import { IoHelpCircleOutline, IoSettingsOutline } from "react-icons/io5";
 import { MdOutlineFeedback } from "react-icons/md";
-import { CiUser, CiShoppingCart } from "react-icons/ci";
-import MyButton from "../../Components/Button/Button";
-import Avatar from "@mui/material/Avatar";
+import { NavLink } from "react-router-dom";
 import MyAvatar from "../../Components/Avatar/Avatar";
+import MyButton from "../../Components/Button/Button";
+import BasicMenu from "../../Components/Profiles/Profile";
 
 const Header = ({ handleClick }) => {
   const profileUser = [
@@ -72,7 +71,8 @@ const Header = ({ handleClick }) => {
           <div className="flex justify-center ">
             <BasicMenu className="flex " profileUser={profileUser}>
               <div className="mr-10">
-                <MyAvatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
+                
+                <MyAvatar alt="Remy Sharp" src="/img/Luan.jpg" />
               </div>
             </BasicMenu>
           </div>
