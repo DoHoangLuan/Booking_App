@@ -57,7 +57,7 @@ const Footer = () => {
               <NavLink to="/job">Việc làm</NavLink>
             </li>
             <li>
-              <NavLink to="/service"> Dịch vụ</NavLink>
+              <NavLink to="/service">Dịch vụ</NavLink>
             </li>
             <li>
               <NavLink to="/contact"> Liên hệ</NavLink>
